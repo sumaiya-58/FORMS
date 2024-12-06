@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          margin: 5px;
+        }
+  
+        .container {
+          background-color: paleturquoise;
+        }
+        .container1 {
+          background-color: beige;
+        }
+        </style>
+</head>
+<body>
+    <h1> FORMS</h1>
+    <h3> Login Form</h3>
+    <div class="container">
+    <form>
+        <fieldset>
+            <legend>Personal Info:</legend>
+        <p>
+            <input type="text" required placeholder="Enter Name" ><br>
+        </p>
+            <p>
+            <input type="text" required placeholder="Enter Email" ><br>
+        </p>
+        <p>
+            <input type="password" required placeholder="Enter password" ><br>
+        </p>
+        
+        <p>
+            State:<br>
+            <select>
+                <option>Telangana</option>
+                <option>Andhra Pradesh</option>
+                <option>kerala</option>
+            </select>
+        </p>
+    </fieldset>
+    <p>
+        <input type="checkbox" id="chkRemember"><label for="chkRemember">Remember me</label>
+    </p>
+    <p>
+        <button>SUBMIT</button>
+       <button>RESET</button>
+    </p>
+    </form>
+</div>
+    <hr>
+    <h3>Signup Form</h3>
+    <div class="container1">
+    <form>
+        <fieldset>
+            <legend>Personal Info:</legend>
+            <p>
+                <label><b> First Name:</b></label>
+                <input type="text" required placeholder="Enter First Name " autofocus> <br>
+            </p>
+            <p>
+                </label><b>Last Name:</label>
+                <input type="text " required placeholder="Enter Last Name"><br>
+                </p>
+            <p>
+                <label><b>Email:</b></label>
+            <input type="text" required placeholder="Enter Email" ><br>
+            </p>
+            <p>
+            <label><b>Date of Birth:</b></label>
+            <input type="datetime-local" required ><br>
+            </p>
+            <p>
+                <label><b>Caste certificate:</b></label>
+            <input type="file" ><br>
+            </p>
+            <p>
+                <label><b>Income certificate:</b></label>
+            <input type="file" ><br>
+            </p>
+    </fieldset>
+        <fieldset>
+            <legend>Educational Information:</legend>
+            <p>
+                Skills:<br>
+                <input type="checkbox" id="html1"><label for="html1">HTML</label><br>
+                <input type="checkbox" id="css1"><label for="css1">CSS</label><br>
+                <input type="checkbox" id ="js"><label for="js">Javascript</label><br>
+            </p>
+            <p>
+                Qualification:<br>
+                <input type="radio" name="Qualification"><label>BE</label><br>
+                <input type="radio" name="Qualification"><label>BTech</label><br>
+            </p>
+        </fieldset>
+    </form>
+    <p>
+        <input type="checkbox" id="rem"><label for="rem">Remember me...!</label>
+    </p>
+    <p>
+        <button>SUBMIT</button>
+    <button>RESET</button>
+</p>
+</div>
+</body>
+</html>
